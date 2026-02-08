@@ -2,13 +2,15 @@
 import { ref } from 'vue';
 import LogoIcon from './LogoIcon.vue';
 
+const baseUrl = import.meta.env.BASE_URL;
+
 const menuOpen = ref(false);
 </script>
 
 <template>
     <header class="bg-zinc-900 px-6 py-4">
         <nav class="mx-auto flex max-w-7xl items-center justify-between">
-            <a href="/" class="flex items-center gap-2">
+            <a :href="baseUrl" class="flex items-center gap-2">
                 <LogoIcon class="h-10 w-auto" fill="white" />
                 <span class="xs:block hidden text-lg font-semibold text-white"
                     >ShowUp365</span
