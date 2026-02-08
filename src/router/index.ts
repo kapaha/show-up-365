@@ -5,9 +5,9 @@ const router = createRouter({
     routes: [
         {
             path: '/',
-            component: () => import('../views/HomePage.vue'),
-        },
-    ],
+            component: () => import('../views/HomePage.vue')
+        }
+    ]
 });
 
 export default router;
