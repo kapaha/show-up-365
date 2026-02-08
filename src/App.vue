@@ -1,7 +1,18 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import AppHeader from './components/AppHeader.vue';
+import AppFooter from './components/AppFooter.vue';
+</script>
 
 <template>
-    <h1 class="text-white">Hello World</h1>
+    <div class="flex min-h-dvh flex-col">
+        <AppHeader />
+
+        <main class="flex-1">
+            <RouterView />
+        </main>
+
+        <AppFooter />
+    </div>
 </template>
 
 <style scoped></style>
