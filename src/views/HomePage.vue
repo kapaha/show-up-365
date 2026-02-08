@@ -151,7 +151,7 @@ import LogoIcon from '../components/LogoIcon.vue';
             <p class="mt-6 text-zinc-500">
                 You don't need 14 habits, weekly reports, and social feeds. You
                 need one question answered honestly every day:
-                <strong class="text-zinc-900">did I show up?</strong>
+                <strong class="text-zinc-900">Did I show up?</strong>
             </p>
             <p class="mt-4 text-zinc-500">
                 ShowUp365 tracks a single daily goal with a visual calendar that
