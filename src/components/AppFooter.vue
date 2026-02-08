@@ -51,7 +51,7 @@ const year = new Date().getFullYear();
 
             <div class="mt-8 border-t border-zinc-800 pt-8">
                 <p class="text-sm text-zinc-500">
-                    &copy; {{ year }} ShowUp365. All rights reserved.
+                    &copy; {{ year }} ShowUp365.
                 </p>
             </div>
         </div>
